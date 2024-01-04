@@ -1,0 +1,1397 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ @import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+
+
+
+ /* ==================================== GENERAL START ====================================  */
+
+
+ :root {
+
+     --black: black;
+     --white: white;
+     --gray: #888888;
+     --dark: #191919;
+     --danger: red;
+ }
+
+ ul,
+ ol,
+ p {
+     padding: 0px;
+     margin: 0px;
+ }
+
+ html {
+     scroll-behavior: smooth;
+     font-family: 'Mulish', sans-serif;
+
+ }
+
+ a {
+     display: inline-block;
+     text-decoration: none;
+     font-family: 'Mulish', sans-serif;
+
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ img {
+     width: 100%;
+ }
+
+ .fs-13 {
+     font-size: 13px;
+ }
+
+ .fs-14 {
+     font-size: 14px;
+ }
+
+ .fs-15 {
+     font-size: 15px;
+ }
+
+ .fs-17 {
+     font-size: 17px;
+ }
+
+ .fs-18 {
+     font-size: 18px;
+ }
+
+ .fs-8 {
+     font-size: 8px;
+ }
+
+ .fs-9 {
+     font-size: 9px;
+ }
+
+ .fs-12 {
+     font-size: 12px;
+ }
+
+ .fs-13 {
+     font-size: 13px;
+ }
+
+ .fs-14 {
+     font-size: 14px;
+ }
+
+ .fs-15 {
+     font-size: 15px;
+ }
+
+ .fs-17 {
+     font-size: 17px;
+ }
+
+ .fs-18 {
+     font-size: 18px;
+ }
+
+ .fs-10 {
+     font-size: 10px;
+ }
+
+ .fs-22 {
+     font-size: 22px;
+ }
+
+ .fs-28 {
+     font-size: 28px;
+ }
+
+ .fs-35 {
+     font-size: 35px;
+ }
+
+ .fs-38 {
+     font-size: 38px;
+ }
+
+ .p-20 {
+     padding: 20px 0px;
+ }
+
+ .p-30 {
+     padding: 30px;
+ }
+
+ .py-100 {
+     padding: 100px 0px;
+ }
+
+ .py-30 {
+     padding: 30px 0px;
+ }
+
+ .py-40 {
+     padding: 40px 0px;
+ }
+
+ .pb-6 {
+     padding-bottom: 65px !important;
+ }
+
+ .outline-none {
+     outline: none !important;
+ }
+
+ .d-inlineblock {
+     display: inline-block !important;
+ }
+
+ .border-color {
+     border-color: none !important;
+
+ }
+
+ .bgc-none {
+     background-color: none !important;
+ }
+
+ /* ==================================== GENERAL END   ====================================  */
+
+ /*  ==================================== HEADER START ==================================== */
+
+ .mulish-sans {
+     font-family: 'Mulish', sans-serif;
+ }
+
+ .source-sans3 {
+     font-family: 'Source Sans 3', sans-serif;
+ }
+
+ .source-sans-pro {
+     font-family: 'Source Sans Pro', sans-serif;
+
+ }
+
+ .stayconnected a:hover {
+     color: #034170 !important;
+     transition-duration: 0.5s;
+ }
+
+ .manualheight {
+     height: 38px;
+     width: 192px;
+ }
+
+ .bgcblue {
+     background-color: #034170 !important;
+ }
+
+ .tcolor {
+     color: #034170;
+     transition-duration: 0.3s;
+ }
+
+ .tcolor:hover {
+     color: #ff6600;
+     text-shadow: 0 4px 0 rgba(230, 92, 0, 0.25);
+ }
+
+ .bg-orange {
+     background-color: #ff6600 !important;
+ }
+
+ .text-orange {
+     color: #ff6600 !important;
+
+ }
+
+ .request-hover:hover {
+     background-color: white !important;
+     color: #034170 !important;
+     border-color: transparent white;
+     transition-duration: 500ms;
+ }
+
+ .border-color {
+     border-color: transparent !important;
+ }
+
+ .search-hover:hover {
+     color: #ff6600 !important;
+ }
+
+ .transform-animation {
+     position: absolute;
+     bottom: 20px;
+     left: 0px;
+     right: 0px;
+ }
+
+ .layer2::before {
+     content: '';
+     position: absolute;
+     bottom: 100%;
+     left: 50%;
+     height: 2px;
+     width: 0px;
+     transition-duration: 0.5s;
+ }
+
+ .layer2:hover::before {
+     width: calc(50% + 2px);
+     background-color: #034170;
+ }
+
+ .layer2::after {
+     content: '';
+     position: absolute;
+     top: 100%;
+     right: 50%;
+     height: 2px;
+     width: 0px;
+     transition-duration: 0.5s;
+ }
+
+ .layer2:hover::after {
+     width: calc(50% + 2px);
+     background-color: #034170;
+ }
+
+ .layer3::before {
+     content: '';
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     height: 2px;
+     width: 0px;
+     transition-duration: 0.5s;
+ }
+
+ .layer3:hover::before {
+     width: calc(50% + 2px);
+     background-color: #034170;
+ }
+
+ .layer3::after {
+     content: '';
+     position: absolute;
+     bottom: 100%;
+     right: 50%;
+     height: 2px;
+     width: 0px;
+     transition-duration: 0.5s;
+ }
+
+ .layer3:hover::after {
+     width: calc(50% + 2px);
+     background-color: #034170;
+ }
+
+ .layer4::after {
+     content: '';
+     position: absolute;
+     bottom: 50%;
+     right: 100%;
+     height: 0px;
+     width: 2px;
+     transition-duration: 0.5s;
+ }
+
+ .layer4:hover::after {
+     height: calc(50% + 2px);
+     background-color: #034170;
+ }
+
+ .layer4::before {
+     content: '';
+     position: absolute;
+     top: 50%;
+     left: 100%;
+     height: 0px;
+     width: 2px;
+     transition-duration: 0.5s;
+ }
+
+ .layer4:hover::before {
+     height: calc(50% + 2px);
+     background-color: #034170;
+ }
+
+ .layer5::after {
+     content: '';
+     position: absolute;
+     top: 50%;
+     right: 100%;
+     height: 0px;
+     width: 2px;
+     transition-duration: 0.5s;
+ }
+
+ .layer5:hover::after {
+     height: calc(50% + 2px);
+     background-color: #034170;
+ }
+
+ .layer5::before {
+     content: '';
+     position: absolute;
+     bottom: 50%;
+     left: 100%;
+     height: 0px;
+     width: 2px;
+     transition-duration: 0.5s;
+ }
+
+ .layer5:hover::before {
+     height: calc(50% + 2px);
+     background-color: #034170;
+ }
+
+ .menu-text {
+     display: block;
+     overflow: hidden;
+ }
+
+ .menu-text-wrap {
+     display: inline-block;
+     position: relative;
+     transition: all ease .3s;
+ }
+
+ .menu-text-wrap::before {
+     position: absolute;
+     top: 100%;
+     left: 0;
+     content: attr(data-hover);
+     z-index: 1;
+ }
+
+ .windfall ul>li>.layer6:hover>a .menu-text-wrap {
+     transform: translateY(-100%);
+
+ }
+
+ .windfall ul>li:hover>a .menu-text-wrap {
+     transform: translateY(-100%);
+
+
+ }
+
+ .dd2 {
+     display: block;
+     visibility: hidden !important;
+     transform: translate(0px, 50px);
+     opacity: 0;
+     width: 200px;
+     transition-duration: 0.5s;
+ }
+
+ .dd1:hover .dd2 {
+     visibility: visible !important;
+     transform: translate(0px, 24px);
+     opacity: 1;
+ }
+
+ .dd4 {
+     display: block;
+     visibility: hidden !important;
+     left: 100%;
+     transform: translate(0px, 30px);
+     opacity: 0;
+     width: 200px;
+     transition-duration: 0.5s;
+ }
+
+ .dd3:hover .dd4 {
+     visibility: visible !important;
+     transform: translate(0px, -30px);
+     opacity: 1;
+ }
+
+ .active1 {
+     color: #ff6600 !important;
+ }
+
+ .active2 {
+     color: #ff6600 !important;
+ }
+
+ .windfall>ul>li::after {
+     content: '';
+     top: calc(50% - 12px);
+     left: 100%;
+     height: 24px;
+     width: 2px;
+     background-color: rgba(255, 255, 255, 0.09);
+     z-index: 2;
+ }
+
+ @media screen and (max-width:992px) {
+     .windfall {
+         height: 250px;
+         overflow: auto;
+     }
+
+     .dd2 {
+         position: static !important;
+         display: none !important;
+     }
+
+     .dd1:hover .dd2 {
+         display: block !important;
+         opacity: 1;
+         width: 96% !important;
+         margin-left: auto;
+         transform: translate(0px, 0px)
+     }
+
+
+     .layer6 {
+         align-items: normal !important;
+     }
+
+     .dd4 {
+         position: static !important;
+         display: none !important;
+     }
+
+     .dd3:hover .dd4 {
+         display: block !important;
+         transform: translate(0px, 0px);
+         opacity: 1;
+         width: 96% !important;
+         margin-left: auto;
+     }
+
+
+     .manualwidth {
+         width: 100% !important;
+         border: none !important;
+     }
+
+     .windfall>ul>li::after {
+         display: none;
+     }
+
+     .squarebox {
+         background: #eeeeee;
+         padding: 5px !important;
+         width: 40px;
+         height: 40px;
+         border: none !important;
+         text-align: center;
+         line-height: 30px;
+         color: #a2a2a2 !important;
+     }
+
+     .squarebox2 {
+         background: #eeeeee;
+         padding: 5px !important;
+         width: 42px;
+         height: 40px;
+         border: none !important;
+         text-align: center;
+         line-height: 30px;
+         color: #a2a2a2 !important;
+     }
+
+     .active1 {
+         color: white !important;
+     }
+
+     .active2 {
+         color: #a2a2a2 !important;
+     }
+
+     .windfall>ul>li {
+         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+         background-color: white;
+     }
+
+     .windfall>ul>li a {
+         color: #191919 !important;
+     }
+
+
+
+     .dd2>li {
+         border-top: 1px solid rgba(0, 0, 0, 0.1);
+     }
+
+     .dd4>li {
+         border-top: 1px solid rgba(0, 0, 0, 0.1);
+     }
+ }
+
+ /*  ==================================== HEADER END ==================================== */
+
+ /* ==================================== WE ARE PROFESSIONAL START ==================================== */
+
+ .bgcblack {
+     background: rgba(0, 0, 0, 0.3);
+ }
+
+ .prev-button,
+ .next-button {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 1;
+     height: 40px;
+     width: 40px;
+     background-color: rgba(0, 0, 0, 0.144);
+     border-radius: 50%;
+ }
+
+ .prev-button {
+     left: 20px;
+ }
+
+ .next-button {
+     right: 20px;
+ }
+
+ .arrowhover:hover {
+     background-color: #191919;
+     transition: 0.5s;
+ }
+
+ @media screen and (max-width:705px) {
+     .recognized {
+         font-size: 25px !important;
+     }
+
+     .improveourcustomer {
+         font-size: 16px !important;
+     }
+
+     .contactustoday {
+         padding: 10px 10px !important;
+         font-size: 16px !important;
+     }
+
+     @media screen and (max-width:652px) {
+
+         .prev-button,
+         .next-button {
+             display: none;
+         }
+     }
+
+     @media screen and (max-width:505px) {
+         .recognized {
+             font-size: 18px !important;
+             font-weight: 500 !important;
+         }
+
+         .improveourcustomer {
+             font-size: 16px !important;
+             font-weight: 300 !important;
+
+         }
+
+         .contactustoday {
+             padding: 5px 5px !important;
+             font-size: 16px !important;
+         }
+
+         .layer2 {
+             padding: 10px 0px !important;
+         }
+     }
+
+     @media screen and (max-width:431px) {
+         .layer2 {
+             padding: 5px 0px !important;
+         }
+
+         .contactustoday {
+             padding: 2px 2px !important;
+             font-size: 13px !important;
+             font-weight: 400 !important;
+         }
+     }
+
+     @media screen and (max-width:387px) {
+         .recognized {
+             font-size: 16px !important;
+             line-height: 15px;
+         }
+
+         .improveourcustomer {
+             font-size: 14px !important;
+             line-height: 13px;
+         }
+
+         .layer2 {
+             padding: 0px !important;
+         }
+     }
+ }
+
+ /* ==================================== WE ARE PROFESSIONAL END ==================================== */
+
+ /*  ==================================== WELCOME TO WINDFALL START ====================================  */
+
+ .list-of-work>li::before {
+     content: '\f00c';
+     position: absolute;
+     font-size: 13px;
+     top: 3px;
+     left: 0;
+     color: #ff6600;
+     font-family: FontAwesome;
+     z-index: 1;
+ }
+
+ .text-gray {
+     color: var(--gray);
+ }
+
+ .width29 {
+     width: 29px !important;
+ }
+
+ .bg-blue {
+     background: rgba(3, 65, 112, 0.95)
+ }
+
+ .readmorehover:hover .fa-chevron-right {
+     padding-left: 5px;
+     transition-duration: 500ms;
+ }
+
+ .commercial {
+     height: 70px;
+     transition-duration: 1s;
+
+ }
+
+ .transformtranslate {
+     transform: translate(0px, 11%);
+     transition-duration: 1s;
+ }
+
+ .commercialdiv:hover .commercial {
+     height: 100%;
+ }
+
+ .commercialdiv:hover .transformtranslate {
+     transform: translate(0px, 30%)
+ }
+
+ @media screen and (max-width:318px) {
+     .transformtranslate {
+         transform: translate(0px, 10%);
+         transition-duration: 1s;
+     }
+
+     .commercialdiv:hover .transformtranslate {
+         transform: translate(0px, 9%);
+     }
+ }
+
+ /*  ==================================== WELCOME TO WINDFALL END ====================================  */
+
+ /*  ==================================== WE ARE ON CALL 24/7 START ==================================== */
+ .whatweofferdiv {
+     max-width: 600px;
+     margin: auto;
+ }
+
+ .w-62 {
+     width: 62px !important;
+ }
+
+ .icon2 {
+     display: none;
+ }
+
+ .layer7:hover .icon1 {
+     display: none;
+ }
+
+ .layer7:hover .icon2 {
+     display: block;
+
+ }
+
+ .layer7:before {
+     content: '';
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     height: 2px;
+     width: 20px;
+     transition-duration: 0.5s;
+     background-color: rgba(25, 25, 25, 0.22);
+ }
+
+ .layer7:after {
+     content: '';
+     position: absolute;
+     top: 100%;
+     right: 50%;
+     height: 2px;
+     width: 20px;
+     transition-duration: 0.5s;
+     background-color: rgba(25, 25, 25, 0.22);
+ }
+
+ .layer7:hover::before {
+     width: 50px;
+     background-color: #034170;
+ }
+
+ .layer7:hover::after {
+     width: 50px;
+     background-color: #034170;
+ }
+
+ /*  ==================================== WE ARE ON CALL 24/7 END ==================================== */
+
+ /*  ==================================== OUR PROJECTS START ====================================  */
+
+ .bgcgray {
+     background-color: #313543;
+ }
+
+
+ .owl-hoverdiv div>a img {
+     transition-duration: 500ms !important;
+ }
+
+ .owl-hoverdiv div:hover>a img {
+     transform: scale(1.1, 1.1) !important;
+
+ }
+
+ .owl-prev,
+ .owl-next {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 1;
+     height: 80px;
+     width: 25px;
+     background-color: rgba(0, 0, 0, 0.301);
+ }
+
+ .owl-prev {
+     left: 0px;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+ }
+
+ .owl-next {
+     right: 0px;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+ }
+
+ .arrowhover:hover {
+     background-color: #191919;
+     transition: 0.5s;
+ }
+
+ .form1 input:focus {
+     border-color: #d1d1d1 !important;
+ }
+
+ /*  ==================================== OUR PROJECTS END ====================================  */
+
+ /*  ==================================== CUSTOMER SAYS START ==================================== */
+
+
+ .prev-button1,
+ .next-button1 {
+     height: 35px;
+     width: 35px;
+
+ }
+
+ .prev-button1 {
+     border-bottom: 0px;
+     border-top: 0px;
+     border-left: 0px;
+ }
+
+ .customerimagediv {
+     height: 57px;
+     width: 57px;
+ }
+
+ /*  ==================================== CUSTOMER SAYS END ==================================== */
+
+ /*  ==================================== WE ARE SRVED PEOPLE START ==================================== */
+
+
+ .bgimage1 {
+     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/link/Boostrap/windfall/asset/images/background1.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ /*  ==================================== WE ARE SRVED PEOPLE START ==================================== */
+
+ /*  ==================================== EMERGENCY SERVICE CALL START ==================================== */
+
+ /*  ==================================== EMERGENCY SERVICE CALL END ==================================== */
+
+
+ /* ==================================== LATEST NEWS  START ====================================*/
+
+ .morenews:hover {
+     background-color: #ff6600;
+     color: white !important;
+ }
+
+ .forafter::after {
+     content: '';
+     display: inline-block;
+     background-color: #cccccc;
+     height: 4px;
+     width: 4px;
+     vertical-align: middle;
+     border-radius: 100%;
+     margin: 0px 10px;
+ }
+
+ .victortheme:hover {
+     color: #ff6600 !important;
+     transition-duration: 500ms;
+ }
+
+ .readmore:hover {
+     color: #ff6600 !important;
+ }
+
+ .readmore {
+     transition-duration: 500ms;
+ }
+
+ .readmore:hover .fa-angle-right {
+     padding-left: 10px;
+ }
+
+ .fa-angle-right {
+     transition-duration: 400ms;
+ }
+
+ .layer16:hover .imghover {
+     transform: scale(1.1);
+     transition-timing-function: linear;
+ }
+
+ .imghover {
+     transition-duration: 500ms;
+ }
+
+ .text-hover:hover {
+     color: #034170 !important;
+ }
+
+ .text-blue {
+     color: #034170;
+ }
+
+ @media screen and (max-width: 315px) {
+     .forafter::after {
+         margin: 0px 2px;
+     }
+ }
+
+ /* ==================================== LATEST NEWS END ====================================  */
+
+ /*  ==================================== TRUSTED PARTNERS START ==================================== */
+
+ .client-images img {
+     width: 122px;
+     height: 60px;
+     opacity: 0.8;
+     transition-duration: 500ms;
+     margin: auto;
+ }
+
+ .client-images img:hover {
+     opacity: 1;
+ }
+
+ /*  ==================================== TRUSTED PARTNERS END ==================================== */
+
+ /* ***********************************************************NEW PAGE ABOUT US STRAT***************************************************************************** */
+
+ /* ==================================== ABOUT-US START ==================================== */
+
+ .bg-color {
+     background: rgba(0, 0, 0, 0.4);
+     z-index: -1;
+ }
+
+ .pageslink li:first-child::after {
+     content: "\f105";
+     padding: 0 10px;
+     font-family: FontAwesome;
+     color: #777777;
+     vertical-align: middle;
+ }
+
+ .color88888 {
+     color: #888888 !important;
+ }
+
+ /*  ==================================== ABOUT-US END ==================================== */
+
+ /*  ==================================== WELCOME TO WIND FALL START ====================================  */
+
+ @media screen and (max-width:400px) {
+     .welcomediv .fs-18 {
+         font-size: 14px !important;
+     }
+
+     .welcomediv .fs-17 {
+         font-size: 15px !important;
+     }
+ }
+
+ /*  ==================================== WELCOME TO WIND FALL END ====================================  */
+
+
+
+ /*  ==================================== 24/7 AVAIBILITY START ====================================  */
+
+ .layer21 {
+     transition-duration: 500ms;
+ }
+
+ .layer20:hover .layer21 {
+     transform: translate(0px, -5 px);
+ }
+
+ @media screen and (max-width:400px) {
+     .layer21 .fs-17 {
+         font-size: 15px !important;
+     }
+ }
+
+ /*  ==================================== 24/7 AVAIBILITY END ====================================  */
+
+ /*  ==================================== WE AIMED TO CREATE START ==================================== */
+
+ .zindex-1 {
+     z-index: -1;
+ }
+
+ @media screen and (max-width:400px) {
+     .weaimeddiv .fs-3 {
+         font-size: 15px !important;
+     }
+ }
+
+ /*  ==================================== WE AIMED TO CREATE END ==================================== */
+
+ /*  ==================================== TEAM MEMBER START ====================================  */
+
+ .electriciandiv {
+     top: calc(100% - 13px);
+     left: 5%;
+ }
+
+ .text-c5cc5c5 {
+     color: #c5c5c5;
+ }
+
+ .layer22 {
+     transition-duration: 500ms;
+ }
+
+ .layer22:hover {
+     transform: translate(0px, -10px);
+ }
+
+ .dannisdiv a:hover {
+     color: #034170 !important;
+ }
+
+ @media screen and (max-width:400px) {
+     .whatweofferdiv .fs-18 {
+         font-size: 15px !important;
+     }
+ }
+
+ /*  ==================================== TEAM MEMBER END ====================================  */
+
+ /*  ==================================== OUR CERTIFICATE START ==================================== */
+
+ .slider-opacity div:hover {
+     opacity: 1 !important;
+ }
+
+ /*  ==================================== OUR CERTIFICATE END ==================================== */
+
+
+ /* ***********************************************************NEW PAGE ABOUT US END***************************************************************************** */
+
+ /* ***********************************************************NEW PAGE  "PAGES" START***************************************************************************** */
+
+ /*  ==================================== WORK IMAGES START ==================================== */
+
+ .border-orange {
+     border-color: #ff6600 !important;
+ }
+
+ .glightdiv {
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.4);
+     color: #ffffff;
+     font-size: 22px;
+     text-align: center;
+ }
+
+ .wdflabs {
+     bottom: 100%;
+     transition-duration: 500ms;
+     overflow: hidden;
+     border-radius: 5px;
+ }
+
+ .wdflrelative:hover .wdflabs {
+     bottom: 0px;
+
+ }
+
+ .slick-dots {
+     bottom: 0px;
+ }
+
+ .slick-dots li button:before {
+     font-size: 10px;
+     color: white;
+     opacity: .5;
+ }
+
+
+ .slick-dots li.slick-active button:before {
+     color: white;
+     opacity: 0.8;
+ }
+
+ .glightdivforvideo {
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.1);
+     color: #ffffff;
+     font-size: 22px;
+     text-align: center;
+ }
+
+
+
+ /*  ==================================== WORK IMAGES END ==================================== */
+
+
+
+ /* ***********************************************************NEW PAGE  "PAGES" END***************************************************************************** */
+
+
+
+ /* ***********************************************************NEW PAGE  "SERVICES" START***************************************************************************** */
+
+ /*  ==================================== BROCHURE START ====================================  */
+
+
+
+ .downlddiv {
+     height: 81px;
+     width: 81px;
+     background: #f2f2f2;
+     text-align: center;
+     font-size: 35px;
+     line-height: 81px;
+     color: #034170;
+     border-radius: 50%;
+ }
+
+ .downlddiv:hover {
+     background-color: #034170;
+     color: white;
+ }
+
+ .bg-colorgary {
+     background: #f9f9f9;
+ }
+
+ .bullet-list li {
+     position: relative;
+ }
+
+ .bullet-list li:before {
+     position: absolute;
+     top: 9px;
+     left: 0;
+     width: 6px;
+     height: 6px;
+     content: "";
+     border-radius: 100%;
+     z-index: 1;
+     background-color: #ff6600;
+ }
+
+ .bullet-list li {
+     transition-duration: 500ms;
+ }
+
+ .bullet-list li:hover {
+     padding: 0px 40px !important;
+ }
+
+ /*  ==================================== BROCHURE END ====================================  */
+
+
+ /* ***********************************************************NEW PAGE  "SERVICES" END***************************************************************************** */
+ /* ***********************************************************NEW PAGE  "SHOP" START***************************************************************************** */
+
+
+ /*  ==================================== PRODUCT-LIST START ====================================  */
+
+ .sorting-list-div {
+     height: 200px;
+     width: 250px;
+     top: 100%;
+     right: 0px;
+     background-color: white;
+     visibility: hidden;
+     opacity: 0;
+     transition-duration: 500ms;
+
+ }
+
+ .sorting-list-div ul li:hover {
+     background-color: #f6f6f6;
+ }
+
+ .sorting:hover .sorting-list-div {
+     visibility: visible;
+     opacity: 1;
+ }
+
+ .star-color {
+     color: #dadada;
+ }
+
+ .product-div:hover .add-to-cart {
+     background-color: #034170 !important;
+     color: white !important;
+ }
+
+ .product-div:hover p {
+     color: #034170 !important;
+ }
+
+ .product-div:hover .product-img {
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+ }
+
+ .sale-div {
+     height: 50px;
+     width: 50px;
+     background-color: #034170;
+     border-radius: 50%;
+     bottom: calc(100% - 25px);
+     right: 0px;
+ }
+
+ .searchbtn:hover {
+     background-color: #ff6600 !important;
+     color: white !important;
+ }
+
+ .battery:hover {
+     color: #ff6600 !important;
+ }
+.filter:hover{
+    background-color: #ff6600 !important;
+    color: white !important;
+}
+ .popular-product-img {
+     height: 100px;
+     width: 80px;
+ }
+
+ .tagshover:hover {
+     background-color: #034170 !important;
+     color: white !important;
+ }
+
+ /*  ==================================== PRODUCT-LIST END ====================================  */
+
+ /* ***********************************************************NEW PAGE  "SHOP" END***************************************************************************** */
+ /* ***********************************************************NEW PAGE "BLOG" START***************************************************************************** */
+
+ .page-link:hover {
+     background-color: #034170 !important;
+     color: white !important;
+     border-color: #034170 !important;
+ }
+
+ .active>.page-link,
+ .page-link.active {
+     z-index: 3;
+     color: white !important;
+     background-color: #034170 !important;
+     border-color: #034170 !important;
+ }
+
+ /* ***********************************************************NEW PAGE "BLOG" END***************************************************************************** */
+
+ /* ***********************************************************NEW PAGE "CONTACT US" START***************************************************************************** */
+ /* =====================================MAP START====================================--> */
+ .map {
+     width: 100%;
+     height: 70vh;
+ }
+
+ /* =====================================MAP END==================================== */
+
+ /*  ==================================== CONTACT INFO START ====================================  */
+
+ .orange-hover:hover {
+     color: #ff6600 !important;
+ }
+
+ .smlist a {
+     position: relative;
+     overflow: hidden;
+     width: 40px;
+     height: 40px;
+     margin: 5px;
+     background: #c5c5c5;
+     color: #ffffff;
+     font-size: 20px;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 100%;
+     display: inline-block;
+     vertical-align: middle;
+     z-index: 1;
+ }
+
+ .smlist a:before {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 50%;
+     height: 0;
+     transition: all ease .4s;
+     content: "";
+     z-index: 0;
+     background-color: #034170 !important;
+ }
+
+ .smlist a:hover::before {
+     height: 100%;
+
+ }
+
+ .smlist a:after {
+     position: absolute;
+     content: '';
+     top: auto;
+     bottom: 0;
+     left: auto;
+     right: 0;
+     width: 50%;
+     height: 0;
+     transition: all ease .4s;
+     z-index: -1;
+     background-color: #034170 !important;
+
+ }
+
+ .smlist a:hover::after {
+     height: 100%;
+ }
+
+ .form-div form input:focus {
+     border-color: #7777777e !important;
+ }
+
+ .form-div form textarea:focus {
+     border-color: #7777777e !important;
+ }
+
+ /*  ==================================== CONTACT INFO END ==================================== */
+
+
+ /* ***********************************************************NEW PAGE "CONTACT US" END***************************************************************************** */
+
+ /*  ==================================== FOOTER START ==================================== */
+ .bgimage2 {
+     background-image: url(/link/Boostrap/windfall/asset/images/map.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 50% 100%;
+ }
+
+ .mailhover {
+     transition-duration: 500ms;
+ }
+
+ .mailhover:hover {
+     color: #ff6600 !important;
+ }
+
+ .listdiv ul li:hover a {
+     color: #ff6600 !important;
+ }
+
+ .smdiv a:hover {
+     color: white !important;
+     transition-duration: 500ms;
+ }
+
+ .angelright {
+     visibility: hidden;
+     opacity: 0;
+ }
+
+ .listdiv ul li:hover .angelright {
+     visibility: visible !important;
+     opacity: 1 !important;
+     padding-left: 4px !important;
+     transition-duration: 500ms;
+     z-index: 999;
+     height: 10px !important;
+ }
+
+ .signupbtn {
+     position: absolute;
+     background-color: #ff6600;
+     height: 100%;
+     top: 0;
+     right: 0;
+     bottom: 0;
+ }
+
+ .footerhover:hover {
+     color: #ff6600 !important;
+ }
+
+ .top {
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     bottom: 10%;
+     right: 2%;
+ }
+
+ /*  ==================================== FOOTER END ==================================== */
+ /*  
